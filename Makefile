@@ -38,7 +38,8 @@ clean:
 
 ## Process raw data into processed data
 data: requirements
-	$(PYTHON_INTERPRETER) $(PROJECT_NAME)/data/make_dataset.py
+	$(PYTHON_INTERPRETER) ./data/make_dataset.py
+
 
 #################################################################################
 # Documentation RULES                                                           #
