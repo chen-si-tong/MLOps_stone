@@ -11,6 +11,7 @@ def test_data():
     with open(os.path.join(path_data, 'processed/train_dataset.pkl'), 'rb') as f:
         dataset = pickle.load(f)
     assert dataset[0][0].shape == (1, 28, 28)
+    print('test_data passed!')
 
 if __name__ == '__main__':
     test_data()
