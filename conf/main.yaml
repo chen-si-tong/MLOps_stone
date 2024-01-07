@@ -1,0 +1,10 @@
+#master main_config.yaml
+
+# defaults:
+#   - model
+#   - training
+
+defaults:
+  - _self_
+  - model: model
+  - training: training

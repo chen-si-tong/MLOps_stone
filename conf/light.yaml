@@ -1,0 +1,13 @@
+defaults:
+  - _self_
+epochs: 5
+batch_size: 64
+lr: 0.001
+kernel_size: 3
+out_features : 10
+padding : 1
+hidden_dim : 128
+
+model_checkpoint: "final_model/mnist_model.pth"
+train_data_path: "/Users/chensitong/MLOps/project/MLOps_test/data/processed/train_dataset.pkl"
+test_data_path: "/Users/chensitong/MLOps/project/MLOps_test/data/processed/test_dataset.pkl"

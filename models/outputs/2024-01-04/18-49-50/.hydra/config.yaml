@@ -1,0 +1,12 @@
+model:
+  kernel_size: 3
+  out_features: 10
+  padding: 1
+  hidden_dim: 128
+training:
+  epochs: 5
+  batch_size: 64
+  lr: 0.001
+  model_checkpoint: mnist_model.pth
+  train_data_path: /Users/chensitong/MLOps/project/MLOps_test/data/processed/train_dataset.pkl
+  test_data_path: /Users/chensitong/MLOps/project/MLOps_test/data/processed/test_dataset.pkl
