@@ -1,0 +1,9 @@
+outs:
+- md5: 3070a03172f8ac65581903994222410f
+  size: 208
+  hash: md5
+  path: cloudbuild.yaml
+  cloud:
+    remote_storage:
+      etag: 08e3c5a28fd7d083031001
+      version_id: '1704816164774627'
